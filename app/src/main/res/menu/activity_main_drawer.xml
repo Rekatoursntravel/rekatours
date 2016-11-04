@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_beranda"
+            android:title="@string/beranda" />
+        <item
+            android:id="@+id/nav_kabar_berita"
+            android:icon="@drawable/ic_kabar_berita"
+            android:title="@string/kabar_berita" />
+        <item
+            android:id="@+id/nav_kritik_saran"
+            android:icon="@drawable/ic_kritik_saran"
+            android:title="@string/kritik_saran" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_tentang"
+            android:title="@string/tentang" />
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_booking"
+            android:title="@string/my_booking" />
+    </group>
+
+</menu>
